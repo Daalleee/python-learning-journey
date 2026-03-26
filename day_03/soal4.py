@@ -13,9 +13,9 @@ a = int(input('masukkan angka: '))
 
 if a == 0:
     print('nol')
-elif a % 2 == 0 :
+elif a > 0 :
     print('positif')
-elif a == 0:
-    print('nol')
+elif a < 0:
+    print('negatif')
 else:
     print('ganjil')

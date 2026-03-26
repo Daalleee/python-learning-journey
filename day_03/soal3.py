@@ -11,9 +11,9 @@
 
 angka = int(input('masukkan angka: '))
 
-if angka > 0:
-    print('positif')
-elif angka < 0:
-    print('negatif')
-else:
+if angka == 0:
     print('nol')
+elif angka > 0:
+    print('positif')
+else:
+    print('negatif')

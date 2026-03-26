@@ -13,7 +13,7 @@ input2 = input('masukkan password: ')
 
 if input1 == user and input2 == pw:
     print('berhasil login')
-elif not input1 == user and input2 == pw:
-    print('login gagal')
+elif input1 == user and input2 != pw:
+    print('password salah')
 else:
-    print('login gagal')
+    print('user name tidak ditemukan')
