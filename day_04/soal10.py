@@ -22,7 +22,5 @@ if tugas >= 90 and ujian >= 90:
     print('lulus dengan predikat A')
 elif tugas >= 70 and ujian >= 70:
     print('lulus')
-elif tugas >= 70 and not ujian >= 70:
-    print('tidak lulus')
 else:
     print('tidak lulus')

@@ -13,7 +13,7 @@ nilai = int(input('masukkan nilai: '))
 
 if nilai > 100 :
     print('nilai tidak valid')
-elif nilai <= 0:
+elif nilai < 0:
     print('nilai tidak valid')
 elif nilai >= 75:
     print('lulus')

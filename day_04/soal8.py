@@ -17,6 +17,6 @@ tarik =float(input('masukkan uang: '))
 
 if saldo >= tarik:
     nilai = saldo - tarik
-    print('sisa saldo', nilai)
+    print('sisa saldo anda: ', nilai)
 else:
-    print('sisa saldo anda',  saldo)
+    print('saldo tidak cukup, saldo anda: ',  saldo)

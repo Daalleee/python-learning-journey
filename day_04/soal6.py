@@ -17,13 +17,9 @@
 hari = input('masukkan hari: ')
 cuaca = input('masukkan cuaca: ')
 
-if hari == 'sabtu' and cuaca =='cerah':
+if (hari == 'sabtu' or 'minggu' ) and cuaca =='cerah':
     print('pergi jalan')
-elif hari == 'minggu' and cuaca == 'cerah':
-    print('pergi jalan')
-elif hari == 'sabtu' and cuaca !='cerah':
-    print('di rumah ')
-elif hari == 'minggu' and cuaca != 'cerah':
+elif hari == 'sabtu' or 'minggu':
     print('di rumah')
 else:
     print('kerja')
