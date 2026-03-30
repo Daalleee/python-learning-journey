@@ -16,19 +16,16 @@
 
 # "login gagal"
 
-u = 'admin'
+u = 'dale'
 p = '12'
 
 user = input('masukkan username: ')
 pw = input('masukkan password: ')
 
-if user == u and pw == p:
-  print('selamat datang admin')
-  
-  if user !='admin':
-      print('selamat datang user')
-  else:
-      print('login gagal')
-
+if pw == p and (user == 'admin' or user == u):
+    if user == 'admin':
+        print('selamat datang admin')
+    else:
+        print('selamat datang user')
 else:
-   print('login gagal')
+    print('login gagal')
