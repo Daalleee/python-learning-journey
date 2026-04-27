@@ -1,6 +1,9 @@
-club = ['barca', 'real', 'ATM']
-club.append('MU')
-club.insert(1, 'arsenal')
-club.extend(['barca', 'GG'])
-del club[6]
-print(club)
+# buat kalkulator sederhana
+
+input1 = float(input('masukkan angka: '))
+input2 = float(input('masukkan angka: '))
+
+print(f'{input1} + {input2} = {input1 + input2}')
+print(f'{input1} - {input2} = {input1 - input2}')
+print(f'{input1} / {input2} = {input1 / input2}')
+print(f'{input1} * {input2} = {input1 * input2}')
